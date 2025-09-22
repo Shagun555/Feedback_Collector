@@ -8,9 +8,9 @@ A **React app** to collect and manage user feedback.
 - Delete Feedback
 
 ## Technologies Used
--React for frontend
--React Router for navigation
--Local Storage for Storing feedbacks
+- React for frontend
+- React Router for navigation
+- Local Storage for Storing feedbacks
 - CSS
 
 ## Components Overview
