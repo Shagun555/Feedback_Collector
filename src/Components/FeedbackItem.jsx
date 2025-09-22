@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ModalComponent from "./ModalComponent";
-import { deleteFeedback } from "./FeedbackServices";
+import { deleteFeedback } from "../Services/FeedbackServices";
 
 function FeedbackItem({ fb, index, refresh }) {
   const [showModal, setShowModal] = useState(false);

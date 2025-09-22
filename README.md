@@ -5,12 +5,10 @@ A **React app** to collect and manage user feedback.
 ## Features
 - Add new feedback with a rating
 - View list of feedback items
-- Delete or edit feedback
-- Responsive UI
+- Delete 
 
 ## Technologies Used
 - React
-- Vite
 - CSS
 
 ## Components Overview

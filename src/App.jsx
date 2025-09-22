@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import FeedbackForm from "./Components/FeedbackForm";
 import FeedbackList from "./Components/FeedbackList";
-import "./App.css"; // For styling 
+import "./assets/App.css"; // For styling 
 
 function App() {
   return (
