@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+body{
+  background-color:  #f1dee1;
+}
+.center{
+  text-align: center;
+}
+.nav-links a {
+  color: black;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-links span {
+  color: #f84464;
+  font-size: 25px;
+  font-weight: bold;
+   margin-left: 450px;
+}
+
+.nav-links a:hover {
+color: #f84464;
+}
+
+.container {
+  padding: 20px;
+}
