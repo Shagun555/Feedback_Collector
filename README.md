@@ -5,10 +5,12 @@ A **React app** to collect and manage user feedback.
 ## Features
 - Add new feedback with a rating
 - View list of feedback items
-- Delete 
+- Delete Feedback
 
 ## Technologies Used
-- React
+-React for frontend
+-React Router for navigation
+-Local Storage for Storing feedbacks
 - CSS
 
 ## Components Overview
@@ -32,17 +34,16 @@ A **React app** to collect and manage user feedback.
 ### Components/FeedbackItem.jsx
 - Single feedback display
 - Shows text and rating
-- Delete and Edit buttons
+- Delete button
 
 ### Components/FeedbackServices.js
-- Helper file for feedback logic (add, delete, update)
+- Helper file for feedback logic (add, delete)
 - Can fetch/save data from localStorage
 
 ### Components/ModalComponent.jsx
-- Popup/modal for edit or delete confirmation
+- Popup/modal for  delete confirmation
 - Reusable for multiple actions
 
 ### CSS files
 - App.css / FeedbackForm.css for styling
-- Makes app responsive and visually clean
 
