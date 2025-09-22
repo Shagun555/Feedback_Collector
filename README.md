@@ -36,13 +36,14 @@ A **React app** to collect and manage user feedback.
 - Shows text and rating
 - Delete button
 
-### Components/FeedbackServices.js
-- Helper file for feedback logic (add, delete)
-- Can fetch/save data from localStorage
-
 ### Components/ModalComponent.jsx
 - Popup/modal for  delete confirmation
 - Reusable for multiple actions
+### Services/FeedbackServices.js
+- Helper file for feedback logic (add, delete)
+- Can fetch/save data from localStorage
+
+
 
 ### CSS files
 - App.css / FeedbackForm.css for styling
