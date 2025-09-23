@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import { addFeedback } from "../Services/FeedbackServices";
+import { addFeedback } from "../Services/feedback-service";
 import { useNavigate } from "react-router-dom";   // importing navigation hook so that we can easily navigete
 import "../assets/FeedbackForm.css";
 

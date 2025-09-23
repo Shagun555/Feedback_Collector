@@ -1,5 +1,5 @@
 import  { useState, useEffect } from "react";
-import { getFeedbacks } from "../Services/FeedbackServices";
+import { getFeedbacks } from "../Services/feedback-service";
 import FeedbackItem from "./FeedbackItem";
 import { useNavigate } from "react-router-dom";//I have used add more feedback button at the last 
 //So to navigate to the feedback form directly I have used useNavigate hook here
